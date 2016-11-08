@@ -1,10 +1,4 @@
----
-title: Intellij IDEA 常用快捷键 (Windows & Linux)
-date: 2016-06-14 15:37:42
-tags:
-  - 快捷键
-  - 高效
----
+##Intellij IDEA 常用快捷键 (Windows & Linux)
 
 ### 常用快捷键
 
