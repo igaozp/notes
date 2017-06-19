@@ -1,4 +1,4 @@
-##Intellij IDEA 常用快捷键 (Windows & Linux)
+## Intellij IDEA 常用快捷键 (Windows & Linux)
 
 ### 常用快捷键
 
