@@ -1,5 +1,5 @@
 
-##### 目录  
+## 目录  
 [标题](#headers)  
 [加粗强调](#emphasis)  
 [列表](#lists)  
@@ -11,7 +11,7 @@
 [内联 HTML](#html)  
 [水平线](#hr)  
 [换行](#lines)  
-[Youtube videos](#videos)  
+
 
 <a name="headers"/>
 
@@ -225,22 +225,16 @@ print s
 
 <a name="tables"/>
 
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+## 表格
 
 ```no-highlight
-Colons can be used to align columns.
+冒号决定表格内容的对齐方向
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Table 1 | Table 2  | Table 3 |
+| ------- |:--------:| -------:|
+| left    |  center  | right   |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
+每个表头单元格至少三个破折号，表格中可以内联其他的样式
 
 Markdown | Less | Pretty
 --- | --- | ---
@@ -248,15 +242,13 @@ Markdown | Less | Pretty
 1 | 2 | 3
 ```
 
-Colons can be used to align columns.
+冒号决定表格内容的对齐方向
 
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Table 1 | Table 2  | Table 3 |
+| ------- |:--------:| -------:|
+| left    |  center  | right   |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+每个表头单元格至少三个破折号，表格中可以内联其他的样式
 
 Markdown | Less | Pretty
 --- | --- | ---
@@ -265,29 +257,27 @@ Markdown | Less | Pretty
 
 <a name="blockquotes"/>
 
-## Blockquotes
+## 引用
 
 ```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> 这是一个单行引用
 
-Quote break.
+多行引用
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> 这是一句非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常长的句子，自动转化为多行引用。
 ```
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> 这是一个单行引用
 
-Quote break.
+多行引用
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> 这是一句非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常长的句子，自动转化为多行引用。
 
 <a name="html"/>
 
-## Inline HTML
+## 内联 HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well. 
+在 Markdown 也可以书写原生的 HTML 页面
 
 ```no-highlight
 <dl>
@@ -309,84 +299,56 @@ You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
 
 <a name="hr"/>
 
-## Horizontal Rule
+## 水平线
 
 ```
-Three or more...
+至少需要三个相应的字符
 
 ---
 
-Hyphens
+使用连字符
 
 ***
 
-Asterisks
+使用星号
 
 ___
 
-Underscores
+使用下划线
 ```
 
-Three or more...
+至少需要三个相应的字符
 
 ---
 
-Hyphens
+使用连字符
 
 ***
 
-Asterisks
+使用星号
 
 ___
 
-Underscores
+使用下划线
 
 <a name="lines"/>
 
-## Line Breaks
+## 换行
 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend. 
-
-Here are some things to try out:
+单次点击回车会完成换行操作，两次点击回车会完成更换段落的操作。
 
 ```
-Here's a line for us to start with.
+这是一句话
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+这也是一句话，点击两次回车后这句话属于新的段落
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+这是一句话
+这是也是一句话，点击一次回车后完成换行，这句话还是在同一个段落中
 ```
 
-Here's a line for us to start with.
+这是一句话
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+这也是一句话，点击两次回车后这句话属于新的段落
 
-This line is also begins a separate paragraph, but...  
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
-
-<a name="videos"/>
-
-## Youtube videos
-
-They can't be added directly but you can add an image with a link to the video like this:
-
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-```
-
-Or, in pure Markdown, but losing the image sizing and border:
-
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1. 
-
----
-
-License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
+这是一句话
+这是也是一句话，点击一次回车后完成换行，这句话还是在同一个段落中
