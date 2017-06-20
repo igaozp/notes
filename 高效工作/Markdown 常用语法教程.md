@@ -1,4 +1,3 @@
-
 ## 目录  
 [标题](#headers)  
 [加粗强调](#emphasis)  
@@ -163,6 +162,7 @@ URL或者尖括号中的URL将自动转换成相应的链接 https://github.com 
 [1]: http://github.com
 [link text itself]: http://www.youtube.com
 
+
 <a name="images"/>
 
 ## 图片
@@ -185,6 +185,7 @@ URL或者尖括号中的URL将自动转换成相应的链接 https://github.com 
 ![alt text][logo]
 
 [logo]: https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png "图片文字"
+
 
 <a name="code"/>
 
@@ -255,6 +256,7 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
+
 <a name="blockquotes"/>
 
 ## 引用
@@ -272,6 +274,7 @@ Markdown | Less | Pretty
 多行引用
 
 > 这是一句非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常非常长的句子，自动转化为多行引用。
+
 
 <a name="html"/>
 
@@ -296,6 +299,7 @@ Markdown | Less | Pretty
   <dt>Markdown in HTML</dt>
   <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
 </dl>
+
 
 <a name="hr"/>
 
@@ -331,6 +335,7 @@ ___
 
 使用下划线
 
+
 <a name="lines"/>
 
 ## 换行
@@ -340,15 +345,15 @@ ___
 ```
 这是一句话
 
-这也是一句话，点击两次回车后这句话属于新的段落
+这也是一句话，点击两次回车后这句话属于新的一行
 
 这是一句话
-这是也是一句话，点击一次回车后完成换行，这句话还是在同一个段落中
+这是也是一句话，点击一次回车后这句话还是在同一行中
 ```
 
 这是一句话
 
-这也是一句话，点击两次回车后这句话属于新的段落
+这也是一句话，点击两次回车后这句话属于新的一行
 
 这是一句话
-这是也是一句话，点击一次回车后完成换行，这句话还是在同一个段落中
+这是也是一句话，点击一次回车后这句话还是在同一行中
