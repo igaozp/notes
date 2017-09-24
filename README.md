@@ -24,3 +24,4 @@ Java
 其他
 - [Intellij IDEA 常用快捷键](https://github.com/igaozp/notes/blob/master/Intellij%20IDEA%20%E5%B8%B8%E7%94%A8%E5%BF%AB%E6%8D%B7%E9%94%AE.md)
 - [Markdown 常用语法教程](https://github.com/igaozp/notes/blob/master/Markdown%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95%E6%95%99%E7%A8%8B.md)
+- [一个小目标](https://github.com/igaozp/notes/blob/master/%E5%85%B6%E4%BB%96/%E4%B8%80%E4%B8%AA%E5%B0%8F%E7%9B%AE%E6%A0%87.md)
