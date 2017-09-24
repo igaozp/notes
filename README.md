@@ -8,6 +8,7 @@ Linux
 
 Java
 - [Java 代码规范 (一)](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%20(%E4%B8%80)%20.md)
+- [Java Bean 与 POJO](https://github.com/igaozp/notes/blob/master/Java/Java%20Bean%20%E4%B8%8E%20POJO.md)
 
 前端
 - [Electron 加载 Chrome 开发插件](https://github.com/igaozp/notes/blob/master/Electron%20%E5%8A%A0%E8%BD%BD%20Chrome%20%E5%BC%80%E5%8F%91%E6%8F%92%E4%BB%B6.md)
