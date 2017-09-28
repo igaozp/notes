@@ -8,6 +8,7 @@
 
 **Java**
 - [Java 代码规范 (一)](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%20(%E4%B8%80)%20.md)
+- [Java 代码贵伐 (二)](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%20(%E4%BA%8C).md)
 - [Java Bean 与 POJO](https://github.com/igaozp/notes/blob/master/Java/Java%20Bean%20%E4%B8%8E%20POJO.md)
 - [Java 中的序列化](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%B8%AD%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96.md)
 
