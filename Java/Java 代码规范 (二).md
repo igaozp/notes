@@ -3,9 +3,9 @@ Java 中的集合处理是日常开发中比较常用的技术，手册中关于
 ### 集合处理
 
 1. 关于 `hashCode` 和 `equals` 的处理，遵顼以下规则：
-  - 只要重写 `equals`，就必须重写 `hashCode`
-  - 因为 `Set` 存储的是不重复的对象，依据 `hashCode` 和 `equals` 进行判断，所以 `Set` 存储的 对象必须重写这两个方法
-  - 如果自定义对象做为 `Map` 的键，那么必须重写 `hashCode` 和 `equals`
+   - 只要重写 `equals`，就必须重写 `hashCode`
+   - 因为 `Set` 存储的是不重复的对象，依据 `hashCode` 和 `equals` 进行判断，所以 `Set` 存储的 对象必须重写这两个方法
+   - 如果自定义对象做为 `Map` 的键，那么必须重写 `hashCode` 和 `equals`
 
 2. 泛型通配符 `<? extends T>` 来接收返回的数据，此写法的泛型集合不能使用 `add` 方法。例如，苹果装箱后返回一个 `<? extends Fruits>` 对象，此对象就不能往里加任何水果包括苹果
 
