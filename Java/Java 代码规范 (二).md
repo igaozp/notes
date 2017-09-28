@@ -10,27 +10,28 @@ Java 中的集合处理是日常开发中比较常用的技术，手册中关于
 2. 泛型通配符 `<? extends T>` 来接收返回的数据，此写法的泛型集合不能使用 `add` 方法。例如，苹果装箱后返回一个 `<? extends Fruits>` 对象，此对象就不能往里加任何水果包括苹果
 
 3. 不要在 `foreach` 循环里进行元素的 `remove / add` 操作。`remove` 元素请使用 `Iterator` 方式，如果并发操作，需要对 `Iterator` 对象加锁
-  ``` java
-  // 反例： 
-  List<String> a = new ArrayList<String>(); 
-  a.add("1"); 
-  a.add("2"); 
-  for (String temp : a) { 
-      if ("1".equals(temp)) { 
-          a.remove(temp);
-      } 
-  }
-  
-  // 正例：
-  Iterator<String> it = a.iterator(); 
-  while(it.hasNext()) { 
-      String temp =
-      it.next();
-      if (删除元素的条件) { 
-          it.remove();
-      }
-  }
-  ```
+
+   ``` java
+   // 反例： 
+   List<String> a = new ArrayList<String>(); 
+   a.add("1"); 
+   a.add("2"); 
+   for (String temp : a) { 
+       if ("1".equals(temp)) { 
+           a.remove(temp);
+       } 
+   }
+   
+   // 正例：
+   Iterator<String> it = a.iterator(); 
+   while(it.hasNext()) { 
+       String temp =
+       it.next();
+       if (删除元素的条件) { 
+           it.remove();
+       }
+   }
+   ```
 
 4. 在 JDK7 版本以上，`Comparator` 要满足自反性，传递性，对称性，不然 `Arrays.sort， Collections.sort` 会报 `IllegalArgumentException` 异常
 
@@ -40,9 +41,9 @@ Java 中的集合处理是日常开发中比较常用的技术，手册中关于
 
 7. 高度注意 `Map` 类集合 `K/V` 能不能存储 `null` 值的情况
 
-| 集合类             | Key          | Value        | Super       | 说明       |
-| ----------------- | ------------ | ------------ | ----------- | ---------- |
-| Hashtable         | 不允许为 null | 不允许为 null | Dictionary  | 线程安全   |
-| ConcurrentHashMap | 不允许为 null | 不允许为 null | AbstractMap | 分段锁技术 |
-| TreeMap           | 不允许为 null | 允许为 null   | AbstractMap | 线程不安全 |
-| HashMap           | 允许为 null   | 允许为 null   | AbstractMap | 线程不安全 | 
+   | 集合类             | Key          | Value        | Super       | 说明       |
+   | ----------------- | ------------ | ------------ | ----------- | ---------- |
+   | Hashtable         | 不允许为 null | 不允许为 null | Dictionary  | 线程安全    |
+   | ConcurrentHashMap | 不允许为 null | 不允许为 null | AbstractMap | 分段锁技术  |
+   | TreeMap           | 不允许为 null | 允许为 null   | AbstractMap | 线程不安全  |
+   | HashMap           | 允许为 null   | 允许为 null   | AbstractMap | 线程不安全  | 
