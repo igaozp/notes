@@ -5,6 +5,7 @@
 **Linux**
 - [Linux 字体极简安装教程](https://github.com/igaozp/notes/blob/master/Linux/Linux%20%E5%AD%97%E4%BD%93%E6%9E%81%E7%AE%80%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
 - [Linux 常用命令简记](https://github.com/igaozp/notes/blob/master/Linux/Linux%20%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E7%AE%80%E8%AE%B0.md)
+- [Linux 开启 TCP BBR 拥塞控制算法](https://github.com/igaozp/notes/blob/master/Linux/Linux%20%E5%BC%80%E5%90%AF%20TCP%20BBR%20%E6%8B%A5%E5%A1%9E%E6%8E%A7%E5%88%B6%E7%AE%97%E6%B3%95.md)
 
 **Java**
 - [Java 代码规范 (一)](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%20(%E4%B8%80)%20.md)
