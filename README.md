@@ -13,6 +13,7 @@
 - [Java 代码规范 (三)](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%BB%A3%E7%A0%81%E8%A7%84%E8%8C%83%20(%E4%B8%89).md)
 - [Java Bean 与 POJO](https://github.com/igaozp/notes/blob/master/Java/Java%20Bean%20%E4%B8%8E%20POJO.md)
 - [Java 中的序列化](https://github.com/igaozp/notes/blob/master/Java/Java%20%E4%B8%AD%E7%9A%84%E5%BA%8F%E5%88%97%E5%8C%96.md)
+- [Java 10 局部变量类型推断](https://github.com/igaozp/notes/blob/master/Java/Java%2010%20%E5%B1%80%E9%83%A8%E5%8F%98%E9%87%8F%E7%B1%BB%E5%9E%8B%E6%8E%A8%E6%96%AD.md)
 
 **前端**
 - [Electron 加载 Chrome 开发插件](https://github.com/igaozp/notes/blob/master/%E5%89%8D%E7%AB%AF/Electron%20%E5%8A%A0%E8%BD%BD%20Chrome%20%E5%BC%80%E5%8F%91%E6%8F%92%E4%BB%B6.md)
